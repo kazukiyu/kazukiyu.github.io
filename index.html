@@ -6,13 +6,12 @@
         function addPtag(){
         console.log('onclick');
         
-        s.ajax({
+        $.ajax({
         url: "/ajax.html",
         success: function( result ) {
         $("#ajax-contents").append( result );
         }
                });
-        
         }
         </script>
     </head>
